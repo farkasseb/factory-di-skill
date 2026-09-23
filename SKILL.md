@@ -1,13 +1,6 @@
 ---
 name: factory-di
-description: >
-  Swift dependency injection with hmlongco/Factory v2.5+. TRIGGER when code imports
-  Factory, FactoryKit, or FactoryTesting; uses @Injected, @LazyInjected, @WeakLazyInjected,
-  @DynamicInjected, @InjectedObject, @InjectedObservable; extends Container, SharedContainer,
-  or ManagedContainer; references ContainerManager, Scope, ParameterFactory, ContainerTrait,
-  FactoryContext, promised(), scopeOnParameters, .cached/.singleton/.shared/.graph;
-  or discusses Factory DI, scopes, singleton tests, @Observable, or Swift Testing isolation.
-  DO NOT TRIGGER for Swinject, Needle, Hilt/Dagger/Koin, or general Swift.
+description: "Swift dependency injection with hmlongco/Factory 2.5+: containers, scopes, registration, @Observable, and test isolation. Imports: Factory, FactoryKit, FactoryTesting. APIs: @Injected, @LazyInjected, @WeakLazyInjected, @DynamicInjected, @InjectedObject, @InjectedObservable, Container, SharedContainer, ManagedContainer, ContainerManager, ParameterFactory, ContainerTrait, FactoryContext, promised(), scopeOnParameters, .cached/.singleton/.shared/.graph. Not for Swinject, Needle, or Android DI."
 ---
 
 # Factory DI (hmlongco/Factory)
